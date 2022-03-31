@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_4ssp"
+    android:background="@drawable/boarder"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="@dimen/_6ssp">
+
+    <TextView
+        android:id="@+id/markerDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3-31-2022"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/markerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_4ssp"
+        android:text="Neurosurgical"
+        android:textSize="@dimen/_22ssp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/markerLat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="22.304230"
+            android:textColor="@color/purple_500"
+            android:textSize="@dimen/_16ssp" />
+
+        <TextView
+            android:id="@+id/markerLng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="73.200700"
+            android:textColor="@color/purple_500"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="italic" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
